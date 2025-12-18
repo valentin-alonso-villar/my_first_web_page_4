@@ -83,7 +83,7 @@ nav a.active {
 }
 
 .menu-item p {
-  margin: 10px 0 0;
+  margin: 10px 0;   /* cambio respecto a tu código */
   font-size: 14px;
 }
 
@@ -107,4 +107,30 @@ nav a.active {
 
 .footer-section a:hover {
   text-decoration: underline;
+}
+
+/* Añadido de la imagen */
+.about-section {
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.about-section p {
+  margin: 10px;
+}
+
+.about-section h1,
+.about-section h2 {
+  color: #333;
+}
+
+.about-section ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.about-section ul li {
+  margin-bottom: 5px;
 }
